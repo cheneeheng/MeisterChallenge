@@ -5,8 +5,8 @@ from fastapi import FastAPI
 from fastapi import Request
 from fastapi.responses import JSONResponse
 
-from .inference import Classifier
-from .schema import RequestItem
+from ..inference.inference import Classifier
+from ..schema.data_classes import RequestItem
 
 clf = Classifier()
 app = FastAPI(title="Classification Inferencer")

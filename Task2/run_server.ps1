@@ -1,1 +1,1 @@
-uvicorn Task2.app:app --reload
+uvicorn Task2.app.app:app --reload
