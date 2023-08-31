@@ -1,0 +1,12 @@
+numpy
+matplotlib
+pandas
+scikit-learn
+flask
+googletrans==3.1.0a0
+transformers
+torch
+sentencepiece
+
+fastapi
+uvicorn
